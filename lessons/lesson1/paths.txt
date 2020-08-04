@@ -1,0 +1,23 @@
+
+https://www.worldometers.info/coronavirus/
+file:///myfile.txt
+
+
+
+https://www.worldometers.info/coronavirus/
+
+<a href="somefolder/">
+https://www.worldometers.info/coronavirus/somefolder
+
+<a href="/somefolder/">
+https://www.worldometers.info/somefolder
+
+
+. - текущая папка
+.. - верхняя (родительская папка)
+
+Например:
+https://www.worldometers.info/coronavirus/somefolder
+
+<a href="..">Corona</a>
+https://www.worldometers.info/coronavirus

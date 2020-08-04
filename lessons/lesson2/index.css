@@ -1,0 +1,73 @@
+body {
+    background-color: rgb(236, 254, 245);
+    color: black;
+    font-family: arial;
+}
+.greenbox {
+    height: 100px;
+    width: 1200px;
+    left: 300px;
+    background-color: green;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 36px;
+}
+.layout { position: relative; }
+.layout DIV { position: absolute; }
+.col1 { background: blue; height: 500px; width: 300px; }
+.col2 { background: white; left: 300px; right: 300px;}
+.col3 { background: green; height: 500px; width: 300px; right: 0; }
+.bordered {
+    border: 1px solid black;
+}
+header {
+    a:link {
+    color: black; 
+    border-bottom: none; 
+    text-decoration-line: none;
+    }
+    a:visited {
+    color: black;
+    text-decoration-line: none;
+    }
+    a:hover {
+    color: black; 
+    border-bottom: 3px solid red;
+    text-decoration-line: none;
+    }
+    a:active {
+    color: black; 
+    border-bottom: none;
+    text-decoration-line: none;
+    }
+}
+.news-tab {
+    font-size: 24px;
+    color: darkblue;
+    margin-top: 20px;
+    vertical-align: top
+    margin-bottom: 20px;
+        a:link {
+        color: darkblue; 
+        border-bottom: none;
+        text-decoration-line: none; 
+    }
+    a:visited {
+        color: blue;
+        text-decoration-line: none;
+    }
+    a:hover {
+        color: blue; 
+        border-bottom: none;
+    }
+    a:active {
+        color: blue; 
+        border-bottom: none;
+        text-decoration-line: none;
+    }
+}
+td {
+    padding-top: 20px;
+}
