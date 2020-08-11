@@ -39,13 +39,13 @@ console.log(t);
 
 
 //создать массив строк. Посчитать количество букв e во всех строках и вывести в консоль
-let e = ['Ukraine', 'Poland', 'Montenegro', 'Serbia', 'USA', 'Portugal', 'Poland', 'Ukraine'];
+let e = ['Ukraine', 'Poland', 'Montenegro', 'Serbia', 'United States of America', 'Portugal', 'Poland', 'Ukraine'];
+let z = 0;
 for (let i = 0; i < e.length; i++) {
-    console.log(e[i] + '-' + e[i].length);
+    for (let y = 0; y < e[i].length; y++) 
+        if (e[i][y] == 'e') {z = z + 1}    
 }
-
-
-
+console.log('count e -' + z);
 
 
 //создать массив чисел. Увеличить в цикле каждое число на 5. Вывести массив в консоль.
