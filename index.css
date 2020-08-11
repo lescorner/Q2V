@@ -1,0 +1,74 @@
+html, body { 
+    padding: 0; 
+    margin: 0;
+    font-family: Arial;
+}
+.tablo {
+    text-align: left;
+    align-self: right;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    height: 400px;
+    width: 265px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    background-color: silver;
+    border-radius: 0.5em;
+    border: 1px solid silver;
+}
+.number {
+    color: black;
+    padding: 5px;
+}
+.rate {
+    color: coral;
+    padding: 5px;
+}
+.userer a:link {
+    color: black; 
+    border-bottom: none; 
+    text-decoration-line: none;
+}
+.userer a:visited {
+    color: black;
+    text-decoration-line: none;
+}
+.userer a:hover {
+    color: black;
+    border-bottom: none;
+    text-decoration-line: 1px solid;
+}
+.userer a:active {
+    color: black; 
+    border-bottom: none;
+    text-decoration-line: none;
+}
+.header {
+    text-align: center;
+    margin-bottom: 5x;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-family: Geneva;
+    font-size: 20px;
+    font-weight: bold;
+    color: coral;
+}
+.footer {
+    text-align: center;
+    margin-bottom: 5px;
+    padding: 5px;
+    font-family: Geneva;
+    font-size: 18px;
+    color: black;
+}
+.whitestrong {
+    background-color: snow;
+
+}
+.top {
+    padding-left: 5px;
+    padding-right: 5px;
+}
