@@ -1,0 +1,11 @@
+.container {
+    background-color: blueviolet;
+    height: 200px;
+    display: flex;
+}
+
+.item {
+    background-color: burlywood;
+    margin: 10px;
+    flex-grow: 4;
+}

@@ -16,6 +16,7 @@ html, body {
     }
 .col3 {
     width: 10%;
+    background-color: green;
 }
 .clearfix::after {
     content: "";
@@ -83,6 +84,7 @@ h1 {
 .zmist a:hover {
     color: blue;
     text-decoration-line: none;
+    text-decoration: underline;
     border-bottom: red;
 }
 .zmist a:active {
