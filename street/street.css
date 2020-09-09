@@ -1,27 +1,7 @@
-.col {
-    border: none;
-    width: 100px;
-    float: left;
-}
 html, body { 
     padding: 0; 
     margin: 0;
     font-family: Arial;
-}
-.col1 {
-    width: 20%;
-}
-.col2 {
-    width: 70%;
-    }
-.col3 {
-    width: 10%;
-    background-color: green;
-}
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
 }
 .promobox {
     text-align: center;
@@ -29,23 +9,29 @@ html, body {
     padding-top: 20px;
     padding-bottom: 20px;
     height: 100px;
-    font-family: 'Verdana', Courier, monospace;
-    font-size: 28px;
-    background-color: #fcff2f;
+    font-family: 'Franklin Gothic Medium', monospace;
+    font-size: 36px;
+    background-color: blanchedalmond;
     color: #100720;
 }
-header {
+.header {
     text-align: center;
     margin-bottom: 10px;
     padding-top: 20px;
     padding-bottom: 20px;
-    background-color: hsl(69, 100%, 59%);
-    font-family: 'Verdana', Courier, monospace;
-    border: 5px solid rgb(83, 7, 60);
+    border: 5px solid #071553;
     border-bottom: 1em, solid, black;
+    background: #7c6d68;
+    background-image: url(img/hohol-back.jfif);
+    background-repeat: repeat-x;
+    font: 1em Cursive bold;
 }
 h1 {
-    color: blue;
+    font-size: 48px;
+    color: black;
+}
+h2 {
+    color: darkblue;
 }
 .photobox {
     text-align: center;
@@ -54,21 +40,18 @@ h1 {
     padding-bottom: 20px;
     padding-left: 5px;
     padding-right: 5px;
-    height: 230px;
     font-family: Geneva;
     font-size: 24px;
     font-weight: bold;
-    background-color: #480cd3;
+    background-color: none;
     color: #f7750a;
 }
 .zmist {
     float: center;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-top: 10px;
-    margin-top:20px; 
+    padding: 20px 20px 20px 20px;
+    margin-top: 20px;
     text-align: center; 
-    font-size:24px;
+    font-size:32px;
     font-weight: bold;
 } 
 .zmist a:link {
@@ -133,4 +116,45 @@ h1 {
     font-weight: bold;
     font-size: 28px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.wrapper {
+    display: flex;  
+    flex-flow: row wrap;
+    text-align: center;
+}
+.footer {
+background: #8897eb;
+}
+.main {
+text-align: left;
+background: #e5edf0;
+}
+.aside-L {
+background: #e9da84;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+background-image: url(img/stamp-hohol.jfif);
+background-repeat: repeat-y;
+}
+.aside-R {
+background: #e7bcd2;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+background-image: url(img/dykanka.jfif);
+background-repeat: repeat;
+}
+@media all and (min-width: 600px) {
+.aside { flex: 1 0 0; }
+}
+@media all and (min-width: 800px) {
+.main    { flex: 3 0px; }
+.aside-L { order: 1; } 
+.main    { order: 2; }
+.aside-R { order: 3; }
+.footer  { order: 4; }
+}
+body {
+padding: 2em; 
 }

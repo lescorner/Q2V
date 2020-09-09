@@ -3,17 +3,14 @@
         <meta charset="UTF-8">
         <title>ГОГОЛІВСЬКА ВУЛИЦЯ</title>
         <link rel="stylesheet" href="street.css">
-        <script src="script.js"></script>
+        <script src="street.js"></script>
     </head>
     <body>
-        <header>
+        <header class="header">
             <h1>ГОГОЛІВСЬКА ВУЛИЦЯ</h1>
         </header>
-        <div class="col col1">
-            <div class="photobox"><img src="img/gogol glass.jpg"; img-align="left"></div>
-            <div class="photobox">ГОГОЛЬ</div>
-        </div>
-        <div class="col col2">
+        <div class="wrapper">
+            <article class="main">
             <div class="generaltext">
                 <h2>
                     ЖУКОВСЬКИЙ Василь Андрійович 
@@ -122,14 +119,25 @@
                 <p class="inref"><a href="hramota.html">Повернутися до есею</a></p>
                 <p class="inref"><a href="index.html">На головну</a></p>
             </div>
-            <div></div>
+            </article>
+            <aside class="aside aside-L">
+                <div class="photobox"><a href="bio-Hohol.html"><img src="img/gogol glass.jpg"  alt="Гоголь в окулярах" width="100%"
+                    class="leftimg"></a></div>
+                <div class="photobox"><a href="taras.html"><img src="img/bulba.jpg" alt="Тарас Бульба" 
+                    width="100%" class="leftimg"></a></div>
+                <div class="photobox"><a href="bio-Zhukovsky.html"><img src="img/270px-Bryullov_portrait_of_Zhukovsky.jpg" 
+                    alt="Жуковський Васілій Андрєєвіч" width="100%" class="leftimg"></a></div>
+                <div class="photobox"><a href="taras.html"><img src="img/Taras_Shevchenko_selfportrait_oil_1840_(crop).png" 
+                    alt="Тарас Шевченко" width="100%" class="leftimg"></a></div>
+            </aside>
+            <aside class="aside aside-R">
+                <div class="promobox">КУТ</div>
+                <div class="promobox">OAK</div>
+                <div class="promobox">Q2V</div>
+            </aside>    
         </div>
-        <div class="col col3">
-            <div class="promobox">Q2V</div>
-            <div class="promobox">КУТ</div>
-            <div class="promobox">OAK</div>
-        </div>
-        <div class="clearfix"></div>
-        <div class="promobox">ТУТ МОЖЕ БУТИ ВАША РЕКЛАМА</div>
+        <footer class="footer">
+            <div class="promobox">ДАЛІ БУДЕ...</div>
+        </footer>
     </body>
 </html>
